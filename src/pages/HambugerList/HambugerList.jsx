@@ -1,5 +1,6 @@
 import React from 'react'
 
+import history from './../../utils/history'
 import './Hambuger.css'
 import HeaderBurger from './../../components/Header'
 import Burger from './../../components/burger/Burger'
@@ -39,7 +40,13 @@ function HambugerList() {
               )
             })}
           </ul>
-          <Button type="primary" className='checkout-btn'>Checkout</Button>
+          <Button
+            type="primary"
+            className='checkout-btn'
+            onClick={() => history.push("/checkout")}
+          >
+            Checkout
+            </Button>
         </div>
       </div>
     </>
