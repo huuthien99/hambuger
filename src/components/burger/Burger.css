@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.burger{
+  width: 400px;
+  /* overflow-y:scroll ; */
+}
+.burger-top{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(218, 150, 62);
+  border-radius: 50px;
+}
+.burger-bottom{
+  width: 100%;
+  height: 35px;
+  background-color: rgb(218, 150, 62);
+  border-radius: 50px;
+}
+.burger-item{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+  color: white;
+}
+.salad{
+  background-color: rgb(81, 201, 81);
+  border-radius: 50px;
+}
+.bacon{
+  background-color: rgb(173, 99, 46);
+  border-radius: 10px;
+}
+.cheese{
+  background-color: khaki;
+  border-radius: 50px;
+}
+.meat{
+  background-color: rgb(107, 49, 7);
+  border-radius: 50px;
+}

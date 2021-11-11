@@ -1,11 +1,15 @@
 import './App.css';
 
-import Header from './components/Header.jsx'
+import Router from './Router'
+
+import 'antd/dist/antd.css';
+
+
 
 function App() {
   return (
-    <div >
-      <Header />
+    <div>
+      <Router />
     </div>
   );
 }
